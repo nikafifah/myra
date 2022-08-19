@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Press+Start+2P&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins',sans-serif;
+    font-size: medium;
+}
+
+aside.main-sidebar.sidebar-dark-primary.elevation-4 {
+    background-color: rgb(20,36,61);
+}
+
+aside.main-sidebar.sidebar-dark-primary.elevation-4 a {
+    color: rgb(160, 189, 236);
+}
+
+table.table#example2 {
+    font-weight: 500;
+}
+
+table.table#example2 tr th,table.table#example2 tr tfoot {
+    text-align: center;
+    background-color: #007bff42;
+}
+
+table.table#example2 tbody tr:hover,
+table.table#example2 tbody tr:nth-child(even):hover,
+table.table#example2 tbody tr:nth-child(odd):hover {
+    background-color: #93c6ff;
+}
+
+table.table#example2 tbody tr {
+    text-align: left;
+    text-overflow: clip;
+}
+
+table.table#example2 tbody tr:nth-child(odd) {
+    background-color: #007bff19;
+    transition: all 0.3s ease;
+}
+
+/* table.table#ds {
+    font-weight: 500;
+}
+
+table.table#ds tr th, table.table#ds tr tfoot {
+    text-align: center;
+    background-color: #007bff42;
+}
+
+table.table#ds tbody tr:hover,
+table.table#ds tbody tr:nth-child(even):hover,
+table.table#ds tbody tr:nth-child(odd):hover {
+    background-color: #ff9393;
+}
+
+table.table#ds tbody tr {
+    text-align: left;
+    text-overflow: clip;
+}
+
+table.table#ds tbody tr:nth-child(odd) {
+    background-color: #ff000019;
+    transition: all 0.3s ease;
+} */
+
